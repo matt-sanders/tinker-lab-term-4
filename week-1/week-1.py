@@ -26,8 +26,11 @@ def turn_right():
 def on_button_a_pressed():
     # We have previously defined all our functions, but haven't actually called them!
     # We are calling them here, and this will run when you press the A button.
-    move_forward()
-    turn_left()
-    move_forward()
     say_hi()
+    move_forward()
+    turn_right()
+    move_forward()
+    turn_right()
+    move_forward()
+    
 
