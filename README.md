@@ -9,6 +9,8 @@ Remember a few things:
 - Comments begin with a `#`, they are there to help explain the code.
 - Indentation is important, and is a common gotcha. An example of good vs bad indentation is detailed below. You can indent code with tabs.
 - Variable and function names must all be one word and can only include letters, numbers, and underscores.
+- Functions start with `def` then the function name, followed by parenthesis `()` and a colon `:`
+- Once a function has been defined, it still needs to be called for it to do anything. We call a function by writing its name, followed by parenthesis, e.g. `my_function()`
 
 ## Indentation
 
