@@ -33,4 +33,8 @@ def on_button_a_pressed():
     turn_right()
     move_forward()
     
-
+@event.button_b_pressed
+def on_button_b_pressed():
+    rocky.stop()
+    codey.display.clear()
+    codey.stop_all_scripts()
